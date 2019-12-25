@@ -1,0 +1,20 @@
+Index: Variables_dataTypes.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Variables_dataTypes.py	(date 1574851412443)
++++ Variables_dataTypes.py	(date 1574851412443)
+@@ -0,0 +1,11 @@
++secret_word ="abc"
++guess= ""
++guess_count = 0
++guess_limit = 3
++# out_of_guesses = false
++
++
++while guess != secret_word:
++    guess = input("Enter guess: ")
++    # guess_count +=1
++print("you win!")
+\ No newline at end of file
