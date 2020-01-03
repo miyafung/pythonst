@@ -2,7 +2,7 @@
 
 安装Python和PyCharm
 
-设置和Hello WorldCalculator
+设置和Hello World
 
 图形绘制
 
@@ -13,5 +13,3 @@
 数字类型的使用
 
 08 从用户那里获取输入
-
-09 创建一个具有基本功能的计算器
