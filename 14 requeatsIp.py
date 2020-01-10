@@ -1,9 +1,10 @@
 import requests
 url="http://www.ip138.com/iplookup.asp?ip="
-r =requests.get(url+'192.168.18.1')
+r =requests.get(url+'202.204.80.112')
 try:
+    print(r.status_code)
     r.raise_for_status()
     r.encoding = r.apparent_encoding
-    print(r.text[-500:])
+    print(r.text)
 except:
     print("失败")
