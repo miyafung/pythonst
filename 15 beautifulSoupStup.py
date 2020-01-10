@@ -6,4 +6,15 @@ print(r.status_code)
 demo = r.text
 # print(demo)
 soup = BeautifulSoup(demo,"html.parser")
-print(soup.prettify())#解析
+
+for parent in soup.a.parents:
+    if parent is None:
+        print(parent)
+else:
+        print(parent.name)
+
+# soup.title
+# print(soup.prettify())
+#解析
+
+
